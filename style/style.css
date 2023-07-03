@@ -21,6 +21,12 @@ nav a:hover {
     color:blanchedalmond;
 }
 
+main {
+    background-color: bisque;
+    padding: 10px;
+    overflow: hidden;
+}
+
 h2 {
     color: blue;
     text-align: center;
@@ -34,3 +40,7 @@ p {
     color: rgb(21, 182, 191);
 }
 
+footer {
+    padding: 50px;
+    overflow: hidden;
+}
