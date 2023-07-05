@@ -2,15 +2,15 @@ function app() {
     let name = document.getElementById("username").value
     document.getElementById("result").innerText = "Приветствуем Вас, " + name + "!" ;
     document.getElementById("username").value = '';
-    console.log("Приветствуем Вас, " + name + "!")
+    console.log("Приветствуем Вас, " + name + "!" )
 }
 
-// function app1() {
-//     let text = document.getElementById("massage").value
-//     document.getElementById("result1").innerHTML = name + ":" + massage;
-//     document.getElementById("massage").value = '';
-//     console.log(massage)
-// }
+function chat() {
+    let text = document.getElementById("massage").value
+    document.getElementById("result1").innerHTML = massage;
+    document.getElementById("massage").value = '';
+    console.log(massage)
+}
 
 
 
